@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form Section */
+.form-section {
+  background: #fefefe;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #17a237;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #138a31;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Todo List Section */
+.todo-list-section {
+  background: #fefefe;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.todo-item h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.todo-item p {
+  margin: 0;
+  color: #666;
+}
+
+.todo-item.completed h3,
+.todo-item.completed p {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Button Container for Todo Item */
+.todo-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.todo-item button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Completed Message Styling */
+.completed-message {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Edit Form Styles */
+.edit-form {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fefefe;
+  margin-top: 10px;
+}
+
+.edit-form input[type="text"],
+.edit-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.edit-form input[type="text"]:focus,
+.edit-form textarea:focus {
+  border-color: #007bff;
+}
+
+/* Button Container for Edit Form */
+.edit-form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.edit-form button {
+  background-color: #ffc107;
+  border: none;
+  color: #333;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-form button:hover {
+  background-color: #e0a800;
+}
