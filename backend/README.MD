@@ -37,3 +37,5 @@
 **-------About--------**
 
     This backend is built using FastAPI and PostgreSQL to handle the CRUD operations for a Todo application. It includes essential endpoints for creating, reading, updating, and deleting todo items. The backend is designed with an optimized and modular code structure to ensure scalability and maintainability.
+
+Snapshots:
