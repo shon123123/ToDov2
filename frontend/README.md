@@ -27,4 +27,9 @@ This is the frontend for a Todo application built using React. It interacts with
     1. React - A JavaScript library for building user interfaces.
     2. Axios - Promise-based HTTP client for making requests to the backend API.
     3. React Router - For handling routing in your React application.
-    
+Snapshots:
+
+
+![Screenshot 2024-08-10 115536](https://github.com/user-attachments/assets/05059318-5733-4aab-b6ab-49a70446fb3c)
+![Screenshot 2024-08-10 115548](https://github.com/user-attachments/assets/ba1b2deb-275f-43e8-b7a9-92371eca443f)
+
